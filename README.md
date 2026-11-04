@@ -5,31 +5,31 @@
 This repository documents Week 1 of my cybersecurity and hacking internship,
 where I built a virtual lab for ethical hacking practice.
 
-## Objectives
+ Objectives
 - Set up an isolated virtual network
 - Install and run Kali Linux as a testing machine
 - Verify network connectivity
 
-## Tools & Environment
+ Tools & Environment
 - Oracle VirtualBox
 - Kali Linux (virtual machine)
 - Firefox (pre-installed in Kali)
 
 ## Setup Steps
-### 1. Create a NAT Network in VirtualBox
+ 1. Create a NAT Network in VirtualBox
 - Opened VirtualBox Manager > Network > NAT Networks
 - Created `NatNetwork` with IPv4 prefix `10.0.0.0/24`
 - Enabled DHCP so VMs receive IP addresses automatically
 
 ![VirtualBox NAT Network](images/image1.png)
 
-### 2. Launch Kali Linux
+ 2. Launch Kali Linux
 - Attached the Kali VM to `NatNetwork` and booted it
 - Opened a terminal to confirm the system works
 
 ![Kali Linux Desktop](images/image2.png)
 
-### 3. Test Internet Connectivity
+ 3. Test Internet Connectivity
 - Opened Firefox in Kali and searched "cyber security" on YouTube
 - Confirmed the VM can reach the internet through the NAT network
 
