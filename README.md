@@ -1,4 +1,3 @@
-# Week1-Cybersecurity-and-hacking.-networkwalks
 # Week 1: Cybersecurity & Hacking Internship – Lab Setup
 
 ## Overview
